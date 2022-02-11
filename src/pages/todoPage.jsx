@@ -1,5 +1,5 @@
 import { action, makeAutoObservable } from "mobx";
-import { MyContext } from "../components/context";
+import { MyContext } from "../context/context";
 import TodoList from "../components/todoList";
 import TodoForm from "../components/todoForm";
 

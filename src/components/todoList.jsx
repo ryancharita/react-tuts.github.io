@@ -1,6 +1,6 @@
 import { useContext } from "react";
 import { observer } from "mobx-react";
-import { MyContext } from "./context";
+import { MyContext } from "../context/context";
 import { DeleteOutlined } from "@ant-design/icons";
 
 const TodoList = observer(() => {

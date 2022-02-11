@@ -1,6 +1,6 @@
 import { useContext } from "react";
 import { observer } from "mobx-react";
-import { MyContext } from "./context";
+import { MyContext } from "../context/context";
 import { Form, Input, Button, Checkbox, Tooltip } from "antd";
 
 const TodoForm = observer(() => {
